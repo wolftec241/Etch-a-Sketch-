@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+.pixel{
+    border : solid 1px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.vertical{
+    display: flex;
+}
+
+.sketch{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+}
