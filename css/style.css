@@ -12,17 +12,57 @@ h1{
     border : solid 1px;
 }
 
-.mainContainer{
-    display: flex;
-    justify-content: center;
-}
-
 .vertical{
     display: flex;
+}
+
+.sketchBlock{
+    display: flex;
+    justify-content: center;
+    height: 550px;
 }
 
 .sketch{
     display: flex;
     flex-flow: wrap column;
     justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+
+.buttonsBlock{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 80px
+}
+
+button{
+    height: 40px;
+    width: 80px;
+}
+
+.color-select select{
+    height: 40px;
+    appearance: none;
+    width: 100%;
+    font-size: 1.15rem;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.change-size{
+    border: 1px solid;
+    width: 80px;
+}
+
+.change-size input{
+    width: 70px;
+}
+
+.hide{
+    visibility: hidden ;
 }
