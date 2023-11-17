@@ -8,7 +8,7 @@ const size = document.getElementById("size"); // Size
 const submit_size = document.getElementById("submit_size"); //Submit the size
 const change_size_window = document.querySelector(".change_size");
 
-let sketchSize = 30;
+let sketchSize = 7;
 
 
 //Check if mouse still press or not 

@@ -24,7 +24,7 @@ h1{
 
 .sketch{
     display: flex;
-    flex-flow: wrap column;
+    flex-flow: nowrap column;
     justify-content: center;
     height: 500px;
     width: 500px;
